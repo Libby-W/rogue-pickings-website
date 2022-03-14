@@ -1,0 +1,72 @@
+/***** BASE STYLES *****/
+
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {width: 600px;
+            float: left;}
+
+.third-width { 
+            width: 400px;
+        float: left; }
+
+/**** Head ****/
+
+head
+
+header h2 .about {color: #77a466; }
+
+
+/***Nav***/
+
+ul  { list-style-type: none;
+        margin: 0;
+        padding; 0; 
+    text-decoration: none;
+    display: table; }
+
+nav ul li a { list-style-type: none; 
+            text-decoration: none;
+            margin: 0;
+            padding: 0;
+            display: table;  } 
+nav li {    float: left;
+        padding: 30px 20px; }
+
+
+/***About***/
+
+.about { font-family: 'Montserrat', sans-serif; }
+
+.about p { font-size: 16px; }
+
+.about h2 { color: #77a466; }
+
+/***menu***/
+
+#todayspecial ul { padding: 0;
+                margin: 0;
+                list-style-type: none;
+                overflow: hidden;
+                color: #77a466;
+}
+
+h2 {font-family: 'Montserrat', sans-serif;}
+
+li a {
+  display: block;
+  color: #77a466;
+  text-align: center;
+  text-decoration: none;
+    list-style-type: none;
+}
+
+/***footer***/
+
+footer { clear: both; 
+        text-align: center; }
